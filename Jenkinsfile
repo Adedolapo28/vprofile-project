@@ -5,7 +5,7 @@ pipeline {
         maven "MAVEN3"
         jdk "OracleJDK8"
     }
-    enviroment {
+    environment {
         SNAP_REPO = 'LBA-snapshot'
         NEXUS_USER = 'admin'
         NEXUS_PASS = 'admin123'
