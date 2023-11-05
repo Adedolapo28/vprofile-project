@@ -133,12 +133,7 @@
                 </configuration>
             </plugin>
 		<!-- CODE COVERAGE -->
-		    <plugin>
-                     <groupId>org.apache.maven.plugins</groupId>
-                     <artifactId>maven-war-plugin</artifactId>
-                     <version>3.2.2</version>
-                    </plugin>
-             <plugin>
+		   <plugin>
                      <groupId>org.apache.maven.plugins</groupId>
                      <artifactId>maven-war-plugin</artifactId>
                      <version>3.3.1</version>
@@ -166,10 +161,11 @@
 		</plugin>
         </plugins>
     </build>
-	<repositories>
+	<!--<repositories>
     <repository>
       <id>${NEXUS-GRP-REPO}</id>
       <url>http://${NEXUSIP}:${NEXUSPORT}/repository/${NEXUS-GRP-REPO}/</url>
     </repository>
   </repositories>
 </project>
+    -->
